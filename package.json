@@ -1,0 +1,23 @@
+{
+  "name": "env-diff",
+  "version": "1.0.0",
+  "description": "Compara .env com .env.example e reporta chaves faltando ou extras.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "diff",
+    "config"
+  ],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
